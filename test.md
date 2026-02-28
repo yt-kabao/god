@@ -103,5 +103,5 @@ if __name__ == "__main__":
 ```
 ---
 
-PS: WatのHPにも隠れアスキーアート欲しいなって
+PS: 隠れアスキーアート欲しいなって
 ![alt text](image.png)
