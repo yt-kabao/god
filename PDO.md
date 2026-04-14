@@ -55,9 +55,9 @@ theme: default
 
 ```
   manifest: {
-        name: "MJ Score",
-        short_name: "MJ Score",
-        description: "麻雀の収支・成績を管理できるアプリ",
+        name: "mjScore",
+        short_name: "mjScore",
+        description: "麻雀の収支・成績管理アプリ",
         theme_color: "#0f172a",
         background_color: "#ffffff",
         display: "standalone",
@@ -66,20 +66,16 @@ theme: default
         start_url: "/",
         icons: [
           {
-            src: "/pwa-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "/pwa-512x512.png",
+            src: "/icon4.png",
             sizes: "512x512",
             type: "image/png",
+            purpose: "any",
           },
           {
-            src: "/pwa-512x512.png",
+            src: "/icon4.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable",
+            purpose: "maskable",
           },
         ],
       },
