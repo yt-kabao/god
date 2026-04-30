@@ -3,7 +3,7 @@ marp: true
 theme: default
 ---
 
-## Laravel ver13で遊んでた話
+## Laravel ver13のAI機能で遊んでた話
 
 ---
 
@@ -13,7 +13,7 @@ theme: default
 
 - 完全にAIに乗り遅れている自分にもってこい!
 - これ使ったら勝手にコーディングとかしてくれるんとちゃうか!(知らんけど)
-- どっから使用料やろ、コミュニティの募金とかなんかな...(知らんけど)
+- どっから使用料でんねやろ、コミュニティの募金とかなんかな...(知らんけど)
 
 ---
 
@@ -44,7 +44,7 @@ $ai_comment = (string) agent(instructions: $instructions)->prompt($prompt);
 HTTP request returned status code 401:
 {
     "error": {
-    "message": "Incorrect API key provided: sk-dapro************\*\*************\*************\*\************* (truncated...)
+    "message": "Incorrect API key provided:
     {"userId":1,"exception":"[object] (Illuminate\\Http\\Client\\RequestException(code: 401): HTTP request returned status code 401:
         )}
     }
